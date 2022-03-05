@@ -1,0 +1,6 @@
+13:54:31.481 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x260de5314b725d99
+13:54:31.723 [TestNG-tests-2] INFO  Academy.validation - Driver is initialised
+13:54:35.432 [TestNG-tests-2] INFO  Academy.validation - Reached to homePage
+13:54:35.501 [TestNG-tests-2] INFO  Academy.validation - Sucessfully validated Text Message
+13:54:35.543 [TestNG-tests-2] INFO  Academy.validation - Sucessfully validated Text Message
+13:54:35.593 [TestNG-tests-2] INFO  Academy.validation - All the bars are visible

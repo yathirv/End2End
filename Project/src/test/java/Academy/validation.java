@@ -43,6 +43,10 @@ public class validation extends base
 	@Test
 	public void validateHeader() throws IOException
 	{
+		
+/*		One is inheritance 
+		Creating object to the class and invoke methods of it */
+		
 		l = new landingPage(driver);
 		Assert.assertEquals(l.getheader().getText(),"AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING");
 		log.info("Sucessfully validated Text Message");

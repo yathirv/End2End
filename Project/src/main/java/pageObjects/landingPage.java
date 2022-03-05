@@ -11,6 +11,13 @@ public class landingPage
 
 	public WebDriver driver; // no life
 	
+/*	Encapsulation is a mechanism of hiding of 
+	data implementation by restricting 
+	access to public methods */
+	
+/*	Declaring Public methods and private variables
+	is a good practice */
+	
 	private By signIn = By.xpath("//span[contains(text(),'Login')]");
 	private By title = By.xpath("//h2[contains(text(),'Featured Courses')]");
 	private By Navigation = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");

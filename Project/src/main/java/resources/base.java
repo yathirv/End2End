@@ -28,9 +28,9 @@ public class base
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
-		//mvn test -Dbrowser=chrome
-//		String browserName = System.getProperty("browser");
-		String browserName = prop.getProperty("browser");
+//		mvn test -Dbrowser=chrome
+		String browserName = System.getProperty("browser");
+//		String browserName = prop.getProperty("browser");
 		System.out.println(browserName);
 		
 		if (browserName.contains("chrome"))
